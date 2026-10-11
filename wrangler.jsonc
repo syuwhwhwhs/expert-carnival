@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "novamail",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-08",
+  "vars": {
+    "MAIL_API": "https://api.mail.tm"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "novamail-db",
+      "database_id": "PASTE_YOUR_D1_DATABASE_ID_HERE"
+    }
+  ]
+}
